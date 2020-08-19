@@ -438,6 +438,9 @@
 
                 <!-- FileExtension, if provided, should start with a "."; using this as a shortcut to test for that. -->
                 <StringProperty Name="FileExtension" ExpectedValue=".wopitest" IsRequired="false" />
+
+                <!-- TEST Only should fail this test case since SupportCSPPP is not added yet: SupportsCSPPP, required in response, and, should set to false as default value. -->
+                <StringProperty Name="SupportsCSPPP" ExpectedValue="false" IsRequired="true"/>
               </JsonResponseContentValidator>
             </Validators>
           </CheckFileInfo>

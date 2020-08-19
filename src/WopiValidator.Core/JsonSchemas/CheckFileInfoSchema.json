@@ -163,6 +163,9 @@
     "SupportsContainers": {
       "type": "boolean"
     },
+    "SupportsCSPPP": {
+      "type": "boolean"
+    },
     "SupportsDeleteFile": {
       "type": "boolean"
     },
